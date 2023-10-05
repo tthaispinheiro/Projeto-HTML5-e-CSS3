@@ -1,0 +1,230 @@
+/*menu*/
+span {
+
+    height: 600px;
+    width: 190px;
+    margin-left: 10px;
+    position: absolute;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(76, 255, 6);
+    padding-top: 30px;
+
+
+}
+
+
+
+.menu {
+    transition: 2s;
+    position: absolute;
+    color: aliceblue;
+    margin-left: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+
+.menu:hover {
+    transition: 4s;
+    color: rgb(10, 240, 132);
+
+}
+
+.menu:hover {
+    transition: 2s;
+    font-size: 30px;
+}
+
+/*video de destaque*/
+main {
+    height: 500px;
+    width: 600px;
+    margin-left: 720px;
+    margin-top: 100px;
+    position: absolute;
+
+}
+
+h4,
+h6 {
+    transition: 2s;
+    font-family: monospace;
+    text-align: center;
+}
+
+h4:hover {
+    transition: 2s;
+    color: rgb(27, 151, 253);
+}
+
+h4 {
+    margin-top: 30px;
+    font-size: 40px;
+    color: chartreuse;
+}
+
+
+
+
+
+#dest {
+    transition: 2s;
+    margin-top: -50px;
+    margin-left: 120px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+
+}
+
+
+
+#principal {
+    transition: 3s;
+    height: 300px;
+    width: 600px;
+    border-radius: 50px;
+}
+
+#principal:hover {
+    transition: 3s;
+    height: 500px;
+    width: 700px;
+    margin-top: -300px;
+    margin-left: -300px;
+    border-radius: 100px;
+    position: absolute;
+
+}
+
+fieldset {
+    height: 140px;
+    width: 270px;
+    border-radius: 20px;
+    border-color: rgb(35, 205, 248);
+    float: left;
+    margin-right: 180px;
+    margin-top: 380px;
+}
+
+input{
+
+    margin-top:14px;
+
+
+
+}
+
+legend {
+    color: rgb(244, 246, 247);
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+form {
+    color: rgb(1, 248, 174);
+    text-align: center;
+}
+
+label {
+    font-family: monospace;
+    text-align: center;
+}
+
+#entrar {
+    border-radius: 5px;
+    color: yellowgreen;
+    background-color: black;
+}
+
+audio {
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    margin-top: 611px;
+    margin-left: -458px;
+}
+
+
+#div1 {
+    height: 640px;
+    width: 1890px;
+    margin-top: 690px;
+    background-color: rgb(145, 4, 4);
+
+
+}
+
+.revel {
+
+    height: 400px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+
+}
+
+
+#red {
+    transition: 2s;
+    color: rgb(254, 255, 254);
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+
+#red:hover {
+    transition: 2s;
+    color: rgb(12, 245, 82);
+    font-family: monospace;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+#redr {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    margin-top: 440px;
+    font-family: monospace;
+    margin-left: 680px;
+
+}
+
+
+footer {
+
+    margin-top: 1820px;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(248, 252, 249, 0.089);
+}
+
+h6 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: monospace;
+    margin-left: 70px;
+}
+
+#rod {
+    color: white;
+    position: absolute;
+    font-family: monospace;
+    margin-top: 30px;
+    margin-left: 880px;
+}

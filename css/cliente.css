@@ -1,0 +1,199 @@
+/*background da página*/
+body {
+    width: 1920px;
+    height: 1080px;
+    background-color: black;
+    background-image: url(../imagem/wallpapers.jpg);
+}
+
+
+
+#cabecalho {
+
+    margin-left: 600px;
+    margin-top: 80px;
+    height: 100px;
+    width: 800px;
+    border-radius: 100px;
+    background-color: rgb(107, 201, 14);
+}
+
+h1 {
+    color: white;
+    font-family: monospace;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+/*menu*/
+span {
+
+    height: 600px;
+    width: 190px;
+    margin-left: 10px;
+    position: fixed;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(76, 255, 6);
+    background-color: rgba(0, 0, 0, 0.562);
+    padding-top: 30px;
+
+
+}
+
+
+.menu {
+    transition: 2s;
+    position: absolute;
+    color: aliceblue;
+    margin-left: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+.menu:hover {
+    transition: 2s;
+    color: rgb(4, 172, 250);
+
+}
+
+.menu:hover {
+    transition: 2s;
+    font-size: 30px;
+}
+
+/*tabela com clientes*/
+table {
+    height: 500px;
+    width: 900px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.534);
+    margin-left: 550px;
+    margin-top: 180px;
+}
+
+
+
+
+.logom {
+    transition: 6s;
+    height: 90px;
+    width: 100px;
+
+}
+
+.logom:hover {
+    transition: 6s;
+    height: 600px;
+    width: 600px;
+
+
+
+}
+
+
+/*rodapé*/
+footer {
+    position: absolute;
+    margin-top: 750px;
+    margin-bottom: 900px;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(5, 100, 40);
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+footer {
+
+    margin-top: 1040px;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(11, 12, 11, 0.479);
+}
+
+h6 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: monospace;
+    margin-left: 70px;
+}
+
+#rod {
+    font-size: 15px;
+    margin-top: -20px;
+    color: white;
+    font-family: monospace;
+    margin-left: 920px;
+
+}
+
+
+/*filiais*/
+#eua {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-left: 380px;
+    margin-top: -20px;
+
+}
+
+#franca {
+    position: absolute;
+    height: 55px;
+    width: 65px;
+    margin-left: 450px;
+    margin-top: -15px;
+
+}
+
+#bra {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    margin-left: 530px;
+    margin-top: -15px;
+
+}
+
+#canada {
+    position: absolute;
+    height: 75px;
+    width: 150px;
+    margin-left: 560px;
+    margin-top: -18px;
+
+}
+
+h5 {
+
+    font-size: 20px;
+    color: white;
+    margin-top: -98px;
+    font-family: monospace;
+    margin-left: 490px;
+
+}
+
+
+#rod {
+    color: white;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 880px;
+}

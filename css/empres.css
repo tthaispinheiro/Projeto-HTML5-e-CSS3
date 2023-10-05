@@ -1,0 +1,185 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    background-color: #131616;
+    background-image: url(../imagem/e5.jpg);
+
+
+
+
+}
+
+#cabecalho {
+
+    margin-left: 600px;
+    margin-top: 80px;
+    height: 100px;
+    width: 800px;
+    border-radius: 100px;
+    background-color: rgb(107, 201, 14);
+}
+
+h1 {
+    color: white;
+    font-family: monospace;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+
+
+span {
+
+    height: 600px;
+    width: 190px;
+    margin-left: 10px;
+    position: fixed;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(76, 255, 6);
+    padding-top: 30px;
+
+
+
+
+}
+
+.menu {
+    transition: 2s;
+    position: absolute;
+    color: aliceblue;
+    margin-left: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+.menu:hover {
+    transition: 2s;
+    color: rgb(4, 172, 250);
+
+}
+
+.menu:hover {
+    transition: 2s;
+    font-size: 30px;
+}
+
+
+
+legend {
+    font-size: 15px;
+    font-family: monospace;
+    color: rgb(7, 8, 8);
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 50px;
+    background-color: rgb(101, 241, 45);
+    border: 2px;
+    border-style: double;
+    border-color: white;
+}
+
+
+main {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 260px;
+    height: 1790px;
+    width: 1590px;
+
+
+
+}
+
+
+.imgempres {
+    height: 380px;
+    width: 480px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-style: double;
+    border-color: rgb(48, 179, 44);
+
+
+}
+
+footer {
+    position: absolute;
+    margin-top: 2060px;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(248, 252, 249, 0.089);
+}
+
+h6 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: monospace;
+    margin-left: 70px;
+}
+
+
+
+#eua {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-left: 380px;
+    margin-top: -20px;
+
+}
+
+#franca {
+    position: absolute;
+    height: 55px;
+    width: 65px;
+    margin-left: 450px;
+    margin-top: -15px;
+
+}
+
+#bra {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    margin-left: 530px;
+    margin-top: -15px;
+
+}
+
+#canada {
+    position: absolute;
+    height: 75px;
+    width: 150px;
+    margin-left: 560px;
+    margin-top: -18px;
+
+}
+
+h5 {
+
+    font-size: 20px;
+    color: white;
+    margin-top: -98px;
+    font-family: monospace;
+    margin-left: 490px;
+
+}
+
+
+#rod {
+    font-size: 15px;
+    margin-top: 60px;
+    color: white;
+    font-family: monospace;
+    margin-left: 920px;
+
+}

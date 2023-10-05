@@ -1,0 +1,177 @@
+
+body {
+    width: 1920px;
+    height: 1080px;
+    background-color: black;
+    background-image: url(../imagem/ensaio4.jpg);
+    background-repeat: repeat-x;
+    background-position: right;
+
+}
+
+
+
+
+
+
+ul {
+
+    position: absolute;
+    font-family: monospace;
+    margin-left: 800px;
+    margin-top: 690px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+span {
+
+    height: 600px;
+    width: 190px;
+    margin-left: 10px;
+    position: fixed;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(76, 255, 6);
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.39);
+
+
+
+
+}
+
+
+
+.menu {
+    transition: 2s;
+    position: absolute;
+    color: aliceblue;
+    margin-left: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+.menu:hover{
+    transition: 2s;
+    color: rgb(4, 172, 250);
+
+}
+
+
+
+.menu:hover{
+transition: 2s;
+font-size: 30px;}
+
+
+
+h1 {
+    text-align: center;
+    margin-left: 200px;
+    padding-top: 5px;
+    font-family: monospace;
+    font-size: 40px;
+    color: rgb(58, 247, 11);
+}
+
+
+main {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 500px;
+    width: 1100px;
+    margin-left: 500px;
+    margin-top: 180px;
+    color: aliceblue;
+    font-size: 20px;
+    text-align-last: center;
+}
+
+
+
+img {
+    position: absolute;
+    margin-left: 0px;
+    height: 400px;
+    width: 280px;
+
+}
+
+footer {
+
+    margin-top:1100px;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(248, 252, 249, 0.089);
+}
+
+h6 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: monospace;
+    margin-left: 70px;
+}
+
+#rod {
+    color: white;
+    position: absolute;
+    font-family: monospace;
+    margin-top: 30px;
+    margin-left: 880px;
+}
+
+#eua {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-left: 380px;
+    margin-top: -20px;
+
+}
+
+#franca {
+    position: absolute;
+    height: 55px;
+    width: 65px;
+    margin-left: 450px;
+    margin-top: -15px;
+
+}
+
+#bra {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    margin-left: 530px;
+    margin-top: -15px;
+
+}
+
+#canada {
+    position: absolute;
+    height: 75px;
+    width: 150px;
+    margin-left: 560px;
+    margin-top: -18px;
+
+}
+
+h5 {
+
+    font-size: 20px;
+    color: white;
+    margin-top: -98px;
+    font-family: monospace;
+    margin-left: 490px;
+}

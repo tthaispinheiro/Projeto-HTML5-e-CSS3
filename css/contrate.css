@@ -1,0 +1,221 @@
+
+/*background da página*/
+body {
+    width: 1920px;
+    height: 1080px;
+    background-color: black;
+    background-image: url(../imagem/contr6.jpg);
+    background-size: 1800px;
+
+
+}
+
+
+#form1 {
+    margin-left: 480px;
+    margin-top: 20px;
+
+
+}
+
+#form2 {
+    margin-left: 900px;
+    margin-top: 290px;
+    height: 410px;
+
+
+}
+
+h1,
+h4 {
+    font-family: monospace;
+    color: white;
+    margin-left: 200px;
+    text-align: center;
+}
+
+h1 {
+    color: chartreuse;
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+span {
+
+    height: 600px;
+    width: 190px;
+    margin-left: 10px;
+    position: fixed;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(76, 255, 6);
+    padding-top: 30px;
+
+
+}
+
+.menu {
+    transition: 2s;
+    position: absolute;
+    color: aliceblue;
+    margin-left: 10px;
+
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+.menu:hover {
+    transition: 2s;
+    color: rgb(4, 172, 250);
+
+}
+
+.menu:hover {
+    transition: 2s;
+    font-size: 30px;
+}
+
+
+#enviar {
+    margin-left: 20px;
+
+}
+
+
+#razao {
+    width: 150px;
+}
+
+#conta {
+    width: 135px;
+
+}
+
+#number {
+    width: 30px;
+
+}
+
+#cep {
+    width: 50px;
+}
+
+#incri {
+    width: 80px;
+
+}
+
+#city {
+    width: 90px;
+}
+
+#sit {
+    width: 150px;
+}
+
+#fichaa1{
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+#ficha2 {
+    margin-top: 60px;
+    border-style: groove;
+    border-color: chartreuse;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+#enviar2 {
+    border-radius: 3px;
+    border-color: blue;
+    color: rgb(12, 15, 17);
+    
+
+}
+
+footer {
+
+    margin-top: 1080px;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(24, 27, 25, 0.233);
+}
+
+h6 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: monospace;
+    margin-left: 70px;
+}
+
+#rod {
+    font-size: 15px;
+    margin-top: -20px;
+    color: white;
+    font-family: monospace;
+    margin-left: 920px;
+
+}
+
+#eua {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-left: 380px;
+    margin-top: -20px;
+
+}
+
+#franca {
+    position: absolute;
+    height: 55px;
+    width: 65px;
+    margin-left: 450px;
+    margin-top: -15px;
+
+}
+
+#bra {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    margin-left: 530px;
+    margin-top: -15px;
+
+}
+
+#canada {
+    position: absolute;
+    height: 75px;
+    width: 150px;
+    margin-left: 560px;
+    margin-top: -18px;
+
+}
+
+h5 {
+
+    font-size: 20px;
+    color: white;
+    margin-top: -98px;
+    font-family: monospace;
+    margin-left: 490px;
+
+}
+
+
+#rod {
+    color: white;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 880px;
+}

@@ -1,0 +1,146 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    background-color: black;
+    background-image: url(../imagem/contr2.jpg);
+    background-position: left;
+    background-repeat: initial;
+
+}
+
+span {
+
+    height: 600px;
+    width: 190px;
+    margin-left: 10px;
+    position: fixed;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(76, 255, 6);
+    padding-top: 30px;
+
+
+}
+
+.menu {
+    transition: 2s;
+    position: absolute;
+    color: aliceblue;
+    margin-left: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+.menu:hover {
+    transition: 2s;
+    color: rgb(4, 172, 250);
+
+}
+
+.menu:hover {
+    transition: 2s;
+    font-size: 30px;
+}
+
+
+legend {
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+    color: rgb(247, 248, 248);
+    font-size: 50px;
+
+}
+
+label {
+
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+footer {
+
+    margin-top: 200px;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(17, 20, 18, 0.26);
+}
+
+h6 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: monospace;
+    margin-left: 70px;
+}
+
+#rod {
+    font-size: 15px;
+    margin-top: -20px;
+    color: white;
+    font-family: monospace;
+    margin-left: 920px;
+
+}
+
+#eua {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-left: 380px;
+    margin-top: -20px;
+
+}
+
+#franca {
+    position: absolute;
+    height: 55px;
+    width: 65px;
+    margin-left: 450px;
+    margin-top: -15px;
+
+}
+
+#bra {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    margin-left: 530px;
+    margin-top: -15px;
+
+}
+
+#canada {
+    position: absolute;
+    height: 75px;
+    width: 150px;
+    margin-left: 560px;
+    margin-top: -18px;
+
+}
+
+h5 {
+
+    font-size: 20px;
+    color: white;
+    margin-top: -98px;
+    font-family: monospace;
+    margin-left: 490px;
+
+}
+
+
+#rod {
+    color: white;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 880px;
+}
