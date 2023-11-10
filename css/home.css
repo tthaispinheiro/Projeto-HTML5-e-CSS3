@@ -48,12 +48,11 @@ h3 {
 /*noticias*/
 #news {
     position: absolute;
-    margin-left: 550px;
+    margin-left: 731px;
     margin-top: 60px;
     height: 1700px;
     width: 999px;
     background-color: rgba(71, 73, 73, 0.336);
-
 }
 
 /*noticias*/
@@ -119,8 +118,8 @@ h2 {
     height: 680px;
     width: 480px;
     position: absolute;
-    margin-left: 20px;
-    margin-top: 150px;
+    margin-left: 102px;
+    margin-top: 332px;
     background-color: rgb(38, 41, 41);
     border-radius: 10px;
 }
@@ -527,8 +526,8 @@ h6 {
         height: 680px;
         width: 480px;
         position: absolute;
-        margin-left: 20px;
-        margin-top: 150px;
+        margin-left: 102px;
+        margin-top: 332px;
         background-color: rgb(38, 41, 41);
         border-radius: 10px;
     }
