@@ -1,14 +1,191 @@
-/*menu*/
+body {
+    background-color: black;
+    width: 100%;
+
+
+}
+
+
+/*cabeçalho da página inicial*/
+header {
+    background-image: url(../imagem/home.jpg);
+    background-size: contain;
+    background-position: center;
+
+
+
+}
+
+
+/*titulos e subtitulos*/
+h1,
+h3 {
+    color: rgb(252, 253, 253);
+    font-family: monospace;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 45px;
+    margin-left: 550px;
+    margin-top: -45px;
+    color: rgb(17, 240, 29);
+    text-shadow: -1px -1px 7px #0c0d0f,
+        -1px 1px 7px rgb(15, 14, 15),
+        1px -1px 7px rgb(12, 10, 14),
+        1px 0px 7px rgb(14, 13, 13);
+}
+
+
+/*noticias*/
+#news {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 60px;
+    height: 1700px;
+    width: 999px;
+    background-color: rgba(71, 73, 73, 0.336);
+
+}
+
+/*noticias*/
+#fotog {
+
+    background-color: rgba(26, 243, 171, 0.568);
+}
+
+
+/*sub noticias*/
+h2 {
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+
+.bbc {
+    position: absolute;
+    margin-left: 260px;
+    height: 300px;
+    width: 480px;
+    border-style: double;
+    border-color: chartreuse;
+
+
+
+}
+
+.p1 {
+    position: absolute;
+    color: white;
+    font-family: monospace;
+    margin-top: 320px;
+    text-align: center;
+}
+
+
+.bbclink {
+    color: rgb(244, 243, 245);
+    position: absolute;
+    margin-top: 390px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 440px;
+    background-color: rgb(8, 184, 52);
+    height: 30px;
+    width: 120px;
+    border-radius: 15px;
+}
+
+
+#midia {
+    position: absolute;
+    margin-left: 1480px;
+    margin-top: 200px;
+    height: 200px;
+    width: 300px;
+}
+
+/*pesquisa de satisfação*/
+#satisf {
+    height: 680px;
+    width: 480px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 150px;
+    background-color: rgb(38, 41, 41);
+    border-radius: 10px;
+}
+
+#feedback {
+    margin-left: 20px;
+}
+
+/*filiais */
+#eua {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-left: 380px;
+    margin-top: -20px;
+
+}
+
+#franca {
+    position: absolute;
+    height: 55px;
+    width: 65px;
+    margin-left: 450px;
+    margin-top: -15px;
+
+}
+
+#bra {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    margin-left: 530px;
+    margin-top: -15px;
+
+}
+
+#canada {
+    position: absolute;
+    height: 75px;
+    width: 150px;
+    margin-left: 560px;
+    margin-top: -18px;
+
+}
+
+h5 {
+
+    font-size: 20px;
+    color: white;
+    margin-top: -98px;
+    font-family: monospace;
+    margin-left: 490px;
+
+}
+
 span {
 
     height: 600px;
     width: 190px;
-    margin-left: 10px;
+    margin-left: 42px;
     position: absolute;
     border: 3px;
     border-style: solid;
     border-color: rgb(76, 255, 6);
-    padding-top: 30px;
+    margin-top: 50px;
 
 
 }
@@ -44,9 +221,11 @@ span {
 main {
     height: 500px;
     width: 600px;
-    margin-left: 720px;
-    margin-top: 100px;
+    margin-left: 583px;
+    margin-top: 172px;
     position: absolute;
+    /* border: solid; */
+    border-color: white;
 
 }
 
@@ -91,16 +270,9 @@ h4 {
     border-radius: 50px;
 }
 
-#principal:hover {
-    transition: 3s;
-    height: 500px;
-    width: 700px;
-    margin-top: -300px;
-    margin-left: -300px;
-    border-radius: 100px;
-    position: absolute;
 
-}
+
+
 
 fieldset {
     height: 140px;
@@ -112,9 +284,9 @@ fieldset {
     margin-top: 380px;
 }
 
-input{
+input {
 
-    margin-top:14px;
+    margin-top: 14px;
 
 
 
@@ -146,18 +318,19 @@ label {
 
 audio {
     position: absolute;
-    height: 50px;
+    height: 24px;
     width: 200px;
-    margin-top: 611px;
-    margin-left: -458px;
+    margin-top: 700px;
+    margin-left: 10px;
 }
 
 
 #div1 {
     height: 640px;
-    width: 1890px;
+    width: 100%;
     margin-top: 690px;
     background-color: rgb(145, 4, 4);
+
 
 
 }
@@ -165,7 +338,7 @@ audio {
 .revel {
 
     height: 400px;
-    width: 600px;
+    width: 31%;
     margin-top: 10px;
     margin-left: 20px;
 
@@ -228,3 +401,432 @@ h6 {
     margin-top: 30px;
     margin-left: 880px;
 }
+
+
+/*DESKTOP*/
+
+@media screen and (min-width:1090px) {
+
+    body {
+        background-color: black;
+
+
+    }
+
+
+    /*cabeçalho da página inicial*/
+    header {
+        background-image: url(../imagem/home.jpg);
+        background-size: contain;
+        background-position: center;
+        height: 300px;
+
+
+    }
+
+
+    /*titulos e subtitulos*/
+    h1,
+    h3 {
+        color: rgb(252, 253, 253);
+        font-family: monospace;
+        text-align: center;
+        margin-top: 60px;
+        padding-top: 20px;
+
+
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 45px;
+        margin-left: 550px;
+        margin-top: -45px;
+        color: rgb(17, 240, 29);
+        text-shadow: -1px -1px 7px #0c0d0f,
+            -1px 1px 7px rgb(15, 14, 15),
+            1px -1px 7px rgb(12, 10, 14),
+            1px 0px 7px rgb(14, 13, 13);
+    }
+
+
+    /*noticias*/
+    #news {
+        position: absolute;
+        margin-left: 550px;
+        margin-top: 60px;
+        height: 1700px;
+        width: 999px;
+        background-color: rgba(71, 73, 73, 0.336);
+
+    }
+
+    /*noticias*/
+    #fotog {
+
+        background-color: rgba(26, 243, 171, 0.568);
+    }
+
+
+    /*sub noticias*/
+    h2 {
+        font-family: monospace;
+        color: white;
+        text-align: center;
+    }
+
+    .bbc {
+        position: absolute;
+        margin-left: 260px;
+        height: 300px;
+        width: 480px;
+        border-style: double;
+        border-color: chartreuse;
+
+
+
+    }
+
+    .p1 {
+        position: absolute;
+        color: white;
+        font-family: monospace;
+        margin-top: 320px;
+        text-align: center;
+    }
+
+
+    .bbclink {
+        color: rgb(244, 243, 245);
+        position: absolute;
+        margin-top: 390px;
+        font-family: monospace;
+        text-align: center;
+        padding-top: 5px;
+        margin-left: 440px;
+        background-color: rgb(8, 184, 52);
+        height: 30px;
+        width: 120px;
+        border-radius: 15px;
+    }
+
+
+    #midia {
+        position: absolute;
+        margin-left: 1480px;
+        margin-top: 200px;
+        height: 200px;
+        width: 300px;
+    }
+
+    /*pesquisa de satisfação*/
+    #satisf {
+        height: 680px;
+        width: 480px;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 150px;
+        background-color: rgb(38, 41, 41);
+        border-radius: 10px;
+    }
+
+    #feedback {
+        margin-left: 20px;
+    }
+
+    /*filiais */
+    #eua {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        margin-left: 380px;
+        margin-top: -20px;
+
+    }
+
+    #franca {
+        position: absolute;
+        height: 55px;
+        width: 65px;
+        margin-left: 450px;
+        margin-top: -15px;
+
+    }
+
+    #bra {
+        position: absolute;
+        height: 55px;
+        width: 55px;
+        margin-left: 530px;
+        margin-top: -15px;
+
+    }
+
+    #canada {
+        position: absolute;
+        height: 75px;
+        width: 150px;
+        margin-left: 560px;
+        margin-top: -18px;
+
+    }
+
+    h5 {
+
+        font-size: 20px;
+        color: white;
+        margin-top: -98px;
+        font-family: monospace;
+        margin-left: 490px;
+
+    }
+
+    span {
+
+        height: 600px;
+        width: 190px;
+        margin-left: 10px;
+        position: absolute;
+        border: 3px;
+        border-style: solid;
+        border-color: rgb(76, 255, 6);
+        padding-top: 30px;
+
+
+    }
+
+
+
+    .menu {
+        transition: 2s;
+        position: absolute;
+        color: aliceblue;
+        margin-left: 10px;
+        text-align: center;
+        font-family: monospace;
+        font-size: 15px;
+        position: absolute;
+        margin-top: 100px;
+
+    }
+
+
+    .menu:hover {
+        transition: 4s;
+        color: rgb(10, 240, 132);
+
+    }
+
+    .menu:hover {
+        transition: 2s;
+        font-size: 30px;
+    }
+
+    /*video de destaque*/
+    main {
+        height: 500px;
+        width: 600px;
+        margin-left: 583px;
+        margin-top: 172px;
+        position: absolute;
+        /* border: solid; */
+        border-color: white;
+
+    }
+
+    h4,
+    h6 {
+        transition: 2s;
+        font-family: monospace;
+        text-align: center;
+    }
+
+    h4:hover {
+        transition: 2s;
+        color: rgb(27, 151, 253);
+    }
+
+    h4 {
+        margin-top: 30px;
+        font-size: 40px;
+        color: chartreuse;
+    }
+
+
+
+
+
+    #dest {
+        transition: 2s;
+        margin-top: -50px;
+        margin-left: 120px;
+        padding-top: 5px;
+        font-size: 15px;
+        color: white;
+
+    }
+
+
+
+    #principal {
+        transition: 3s;
+        height: 300px;
+        width: 600px;
+        border-radius: 50px;
+    }
+
+
+
+    fieldset {
+        height: 140px;
+        width: 270px;
+        border-radius: 20px;
+        border-color: rgb(35, 205, 248);
+        float: left;
+        margin-right: 180px;
+        margin-top: 380px;
+    }
+
+    input {
+
+        margin-top: 14px;
+
+
+
+    }
+
+    legend {
+        color: rgb(244, 246, 247);
+        text-align: center;
+        font-family: monospace;
+        font-size: 20px;
+
+    }
+
+    form {
+        color: rgb(1, 248, 174);
+        text-align: center;
+    }
+
+    label {
+        font-family: monospace;
+        text-align: center;
+    }
+
+    #entrar {
+        border-radius: 5px;
+        color: yellowgreen;
+        background-color: black;
+    }
+
+    audio {
+        position: absolute;
+        height: 24px;
+        width: 200px;
+        margin-top: 700px;
+        margin-left: 10px;
+    }
+
+
+    #div1 {
+        height: 640px;
+        width: 100%;
+        margin-top: 690px;
+        background-color: rgb(145, 4, 4);
+
+
+
+    }
+
+
+
+    .revel {
+
+        height: 400px;
+        width: 31%;
+        margin-top: 10px;
+        margin-left: 20px;
+
+
+    }
+
+
+    #red {
+        transition: 2s;
+        color: rgb(254, 255, 254);
+        font-family: monospace;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+
+
+    #red:hover {
+        transition: 2s;
+        color: rgb(12, 245, 82);
+        font-family: monospace;
+        font-size: 80px;
+        text-align: center;
+
+    }
+
+    #redr {
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        margin-top: 440px;
+        font-family: monospace;
+        margin-left: 680px;
+
+    }
+
+
+    footer {
+
+        margin-top: 1820px;
+        height: 130px;
+        width: 100%;
+        background-color: rgba(248, 252, 249, 0.089);
+    }
+
+    h6 {
+        position: absolute;
+        font-size: 20px;
+        color: white;
+        margin-top: 10px;
+        font-family: monospace;
+        margin-left: 70px;
+    }
+
+    #rod {
+        color: white;
+        position: absolute;
+        font-family: monospace;
+        margin-top: 30px;
+        margin-left: 880px;
+    }
+
+
+}
+
+
+
+/*TELAS MENORES
+
+@media screen and (max-width:480px) {
+    
+}*/
+
+
+/*
+
+@media screen and (min-width:800px) {
+    
+}*/
+
+
+/**/
